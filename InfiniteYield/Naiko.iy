@@ -5,7 +5,7 @@ local Plugin = {
         ["breakingplus"] = {
             ["ListName"] = "breaking+",
             ["Description"] = "Loads breaking plus",
-            ["Aliases"] = {"bp+","bp"},
+            ["Aliases"] = {"bp+","bp",'breaking+'},
             ["Function"] = function(args,speaker)
                 notify('Loading',"Loading Breaking plus please wait.")
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NaikoScript/Breaking-Plus/main/Script"))()
@@ -14,7 +14,7 @@ local Plugin = {
         ["katplus"] = {
             ["ListName"] = "kat+",
             ["Description"] = "Loads kat plus",
-            ["Aliases"] = {'kat'},
+            ["Aliases"] = {'kat','kat+'},
             ["Function"] = function(args,speaker)
                 notify('Loading',"Loading Kat plus please wait.")
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/NaikoScript/Kat-Plus/main/Script"))()
