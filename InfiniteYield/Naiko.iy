@@ -3,7 +3,7 @@ local Plugin = {
     ["PluginDescription"] = "Load scripts that are published by naiko exploits quickly through infinite yield",
     ["Commands"] = {
         ["breakingplus"] = {
-            ["ListName"] = "breaking +",
+            ["ListName"] = "breaking+",
             ["Description"] = "Loads breaking plus",
             ["Aliases"] = {"bp+","bp"},
             ["Function"] = function(args,speaker)
@@ -12,7 +12,7 @@ local Plugin = {
             end
         },
         ["katplus"] = {
-            ["ListName"] = "kat +",
+            ["ListName"] = "kat+",
             ["Description"] = "Loads kat plus",
             ["Aliases"] = {'kat'},
             ["Function"] = function(args,speaker)
