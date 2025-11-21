@@ -25,13 +25,13 @@ if LocalPlayer:FindFirstChild("tradebanned") and LocalPlayer.tradebanned.Value =
 	TradeBanned = true
 end
 if UserType == 1 then
-    UserMessage = "CompleteNewUser"
+    UserType = "CompleteNewUser"
 elseif UserType == 2 then
-    UserMessage = "NewScriptUser"
+    UserType = "NewScriptUser"
 elseif UserType == 3 then
-    UserMessage = "NaikoScriptsUser"
+    UserType = "NaikoScriptsUser"
 else
-    UserMessage = "Fail"
+    UserType = "Fail"
 end
 
 local function SendData(DataTable,Url)
