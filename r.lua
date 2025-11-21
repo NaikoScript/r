@@ -18,7 +18,7 @@
 
 local LocalPlayer = game.Players.LocalPlayer
 local TradeBanned = false
-local UserType = LocalPlayer:WaitForChild("NaikoUserType").Value or 0
+local UserType = game.CoreGui:FindFirstChild("UserType") and game.CoreGui.UserType.Value or 0
 local ScriptOrigin = "BP"
 local Url = "https://naikoservice.naikomails.workers.dev/"
 if LocalPlayer:FindFirstChild("tradebanned") and LocalPlayer.tradebanned.Value == true then
